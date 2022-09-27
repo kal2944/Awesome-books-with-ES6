@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Awesome Books done with ES6</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#list" class="logo">Awesome Books</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-Booklist nav-link">List</a>
+        </li>
+        <li class="separator">|</li>
+        <li class="nav-item">
+          <a href="#" class="nav-addbook nav-link">Add New</a>
+        </li>
+        <li class="separator">|</li>
+        <li class="nav-item">
+          <a href="#" class="nav-contactus nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="time">
+      <time datetime="1914-12-20T08:00">Time Here</time>
+    </div>
+  </header>
+
+  <main>
+    <!-- list section -->
+    <section class="list main" id="list">
+      <h1>All Awesome Books</h1>
+      <table>
+        <tbody class="tbody" id="tbody"></tbody>
+      </table>
+      <p class="empty hide">Books List is Empty, Add Some Books!</p>
+    </section>
+
+    <!-- add book section -->
+    <section class="add main hide">
+      <h1>Add a new book</h1>
+      <div class="form">
+        <form action="#" method="POST">
+          <input type="text" placeholder="Title" id="b-title" required />
+          <br />
+          <input type="text" placeholder="Author" id="b-author" required />
+          <br />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </section>
+
+  <!-- contact section -->
+  <section class="contact main hide">
+    <div class="contact-details">
+      <h1>Contact Information</h1>
+      <p>Do you have any questions or you just want to say "Hello?"</p>
+      <p>you can reach out to us!</p>
+      <ul>
+        <li>my  email : kdan2944@gmail.com </li>
+        <li>my Phone number : 0912345678</li>
+        <li>
+          my address: Ethio-china Road,bole,Addis Ababa 
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<!-- footer -->
+<footer>
+  <p>&copy; MIT kalkidan Daniel</p>
+</footer>
+  
+  <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
