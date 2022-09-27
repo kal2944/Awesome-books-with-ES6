@@ -16,6 +16,8 @@ In this project, The goal is to make the refactor of my Awesome Books project mo
 - Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 - Use ES6 Syntax and Create 'modules' directory in order to store small js codes and import them to index.js.
 
+## Live Demo
+https://kal2944.github.io/Awesome-books-with-ES6/
 
 ## Author
 
