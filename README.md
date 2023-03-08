@@ -17,7 +17,7 @@ In this project, The goal is to make the refactor of my Awesome Books project mo
 - Use ES6 Syntax and Create 'modules' directory in order to store small js codes and import them to index.js.
 
 ## Live Demo
-https://kal2944.github.io/Awesome-books-with-ES6/
+[click here](https://kal2944.github.io/Awesome-books-with-ES6/)
 
 ## Author
 
